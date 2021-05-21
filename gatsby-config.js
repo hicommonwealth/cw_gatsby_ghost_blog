@@ -34,6 +34,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 *
 */
 module.exports = {
+    pathPrefix: `/cw_gatsby_ghost_blog`,
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
