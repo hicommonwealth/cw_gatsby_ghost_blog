@@ -521,7 +521,6 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
 }
 
 .container {
@@ -668,18 +667,20 @@ h6 {
     background: var(--color-base);
     background-position: center;
     background-size: cover;
+    background: linear-gradient(51.88deg, #91BFFF 5.22%, #91FFA0 30.71%, #FBFF91 53.42%, #FF9191 81.71%);
+
 }
 
 .site-nav-item {
     display: inline-block;
+    padding-right: 20px;
     padding: 5px 10px;
-    color: #fff;
-    opacity: 0.7;
+    color: black;
+    font-weight: 500;
 }
 
 .site-nav-item:hover {
     text-decoration: none;
-    opacity: 1;
 }
 
 .site-nav-icon {
@@ -707,10 +708,9 @@ h6 {
 }
 
 .site-banner {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
-    padding: 10vw 0;
-    text-align: center;
+    padding: 2vw 0;
 }
 
 .site-banner-title {
@@ -724,9 +724,10 @@ h6 {
 .site-banner-desc {
     margin: 5px 0 0 0;
     padding: 0;
-    font-size: 2.4rem;
-    line-height: 1.3em;
-    opacity: 0.7;
+    font-size: 3rem;
+    line-height: 1em;
+    color: black;
+    font-weight: 700;
 }
 
 .site-nav {
