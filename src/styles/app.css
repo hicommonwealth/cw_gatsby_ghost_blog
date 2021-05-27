@@ -657,12 +657,16 @@ h6 {
     border-radius: 12px;
 }
 
+.content-body img {
+    height:auto;
+}
+
 /* Header
 /* ---------------------------------------------------------- */
 
 .site-head {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #fff;
     background: var(--color-base);
     background-position: center;
@@ -670,7 +674,6 @@ h6 {
     background: linear-gradient(51.88deg, #91BFFF 5.22%, #91FFA0 30.71%, #FBFF91 53.42%, #FF9191 81.71%);
 
 }
-
 .site-nav-item {
     display: inline-block;
     padding-right: 20px;
@@ -985,9 +988,8 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-foot {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 20px 0;
     color: rgba(255,255,255,0.7);
-    font-size: 1.3rem;
     background: var(--color-base);
 }
 
