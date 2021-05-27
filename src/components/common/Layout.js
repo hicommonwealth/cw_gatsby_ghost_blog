@@ -99,8 +99,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </div>
                                 <div className="site-nav-right">
                                     {/* The navigation items as setup in Ghost */}
-                                    { <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer">Commonwealth</a>}
-                                    { <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer">Edgeware</a>}
+                                    { <a href="https://commonwealth.im" className="site-nav-item" target="_blank" rel="noopener noreferrer">Commonwealth</a>}
+                                    { <a href="https://edgewa.re" className="site-nav-item" target="_blank" rel="noopener noreferrer">Edgeware</a>}
                                 </div>
                             </div>
                             { isHome ?
@@ -126,8 +126,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 <Link to="/">{commonLogoFooter}</Link> © 2021 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a>
                             </div>
                             <div className="site-foot-nav-right">
-                                { <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer">Commonwealth</a>}
-                                { <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer">Edgeware</a>}
+                                { <a href="https://commonwealth.im" className="site-nav-item" target="_blank" rel="noopener noreferrer">Commonwealth</a>}
+                                { <a href="https://edgewa.re" className="site-nav-item" target="_blank" rel="noopener noreferrer">Edgeware</a>}
                                 <div className="site-mast-right">
                                     { site.twitter && <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
                                     {/* <a className="site-nav-item" href={ `https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/` } target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/rss.svg" alt="RSS Feed" /></a> */}
