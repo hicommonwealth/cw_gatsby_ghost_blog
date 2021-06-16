@@ -526,7 +526,12 @@ h6 {
 .container {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 4vw;
+    padding: 0 2vw;
+}
+
+.home-container {
+    max-width: 1120px;
+    margin: auto;
 }
 
 .content {
@@ -768,17 +773,19 @@ h6 {
 /* ---------------------------------------------------------- */
 
 .site-main {
-    padding: 4vw 0;
+    padding: 2vw 0;
 }
 
 /* Index
 /* ---------------------------------------------------------- */
 
 .post-feed {
+    max-width: 1200px;
     display: grid;
-    justify-content: space-between;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    overflow: none;
 }
 
 @media (max-width: 980px) {
@@ -817,6 +824,8 @@ h6 {
 .post-card-excerpt {
     font-size: 1.6rem;
     line-height: 1.55em;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .post-card-image {
