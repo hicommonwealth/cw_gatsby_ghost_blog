@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
                     <div className="post-card-avatar">
                         {post.primary_author.profile_image ?
                             <img className="author-profile-image" src={post.primary_author.profile_image} alt={post.primary_author.name}/> :
-                            <img className="default-avatar" src="/images/icons/avatar.svg" alt={post.primary_author.name}/>
+                            <img className="default-avatar" src="https://commonwealth.ghost.io/content/images/2021/06/Commonwealth-Social-Logo--color-@4x-1.png" alt={post.primary_author.name}/>
                         }
                     </div>
                     <span>{ post.primary_author.name }</span>
