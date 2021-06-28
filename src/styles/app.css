@@ -552,26 +552,28 @@ h6 {
     background: #fff;
 }
 
+.post-feature-image {
+    max-width: 720px;
+    margin: 0.8em auto 0;
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+}
+
 .post-feature-image img {
-    margin: 0 0 3vw;
     width: 100%;
-    height: 500px;
     object-fit: cover;
 }
 
 @media (max-width: 980px) {
     .post-feature-image img {
-        margin: 0 0 3vw;
         width: 100%;
-        height: 500px;
         object-fit: contain;
     }
 }
 @media (max-width: 680px) {
     .post-feature-image img {
-        margin: 0 0 3vw;
         width: 100%;
-        height: 500px;
         object-fit: contain;
     }
 }
@@ -597,7 +599,7 @@ h6 {
 }
 
 .content-title {
-    margin: 0 0 0.8em;
+    margin: 0.8em 0;
     font-size: 5rem;
 }
 @media (max-width: 500px) {
